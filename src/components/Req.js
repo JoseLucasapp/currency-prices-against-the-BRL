@@ -21,7 +21,7 @@ export default{
             },
             {
                 slug: 'GBP',
-                title: 'Libra',
+                title: 'Libra Esterlina',
                 items: await connect(`/all/GBP-BRL`)
             },
             {

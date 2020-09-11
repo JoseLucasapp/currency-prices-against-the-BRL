@@ -1,0 +1,18 @@
+.currencymain{
+    width: 250px;
+    margin-left: 25px;
+    height: 150px;
+    border: 1px solid red;
+    float: left;
+}
+.currencymain h3{
+    text-align: center;
+}
+.currencyrowarea{
+
+}
+.currencyrow{
+}
+.currency{
+    width: 100%;
+}

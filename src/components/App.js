@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Req from './Req';
 import Organizer from './secundaryComponents/Organizer';
+import './/styles/App.css';
 
 export default () => {
 
