@@ -3,7 +3,7 @@
 }
 
 .currencymain{
-    width: 20%;
+    width: 21%;
     height: 150px;
     float: left;
     margin-top: 50px;
@@ -15,15 +15,21 @@
 
 }
 .currencyrow{
+    max-height: 300px;
 }
 .currency{
     border: 1px solid red;
     width: 100%;
-    height: 50px;
+    height: 67px;
     transform: scale(0.9);
     overflow-y: hidden;
 }
 .currency:hover{
+    transition: steps(2);
     transform: scale(1);
-    height: 400px;
+    height: 300px;
+}
+.currency:hover div{
+    opacity: 0%;
+    position: absolute;
 }

@@ -10,10 +10,13 @@ export default ({title, items}) =>{
                     <div className="currencyrow">
                         {items.map((item,key)=>(
                             <div key={key} className="currency">
-                                <p>{item.codein} to {item.code}</p>
                                 <p>Compra: {item.bid}</p>
                                 <p>Venda: {item.ask}</p>
-                                <p>Venda: {item.ask}</p>
+                                <div className="moretext">
+                                    <p>Passe o Mouse para mais dados ...</p>
+                                </div>
+                                <p>Variação: {item.varBid}</p>
+                                <p>% de Variação: {item.pctChange*100}%</p>
                             </div>
                         ))}
                     </div>

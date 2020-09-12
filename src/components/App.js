@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Req from './Req';
+import Header from './secundaryComponents/Header';
 import Organizer from './secundaryComponents/Organizer';
 import './/styles/App.css';
 
@@ -18,13 +19,16 @@ export default () => {
     return(
         <div>
             <div>
-                <section>
-                    {currency.map((item,key)=>(
-                        <div>
-                            <Organizer key={key} title={item.title} items={item.items}/>
-                        </div>
-                    ))}
-                </section>
+                <Header/>
+                <div>
+                    <section>
+                        {currency.map((item,key)=>(
+                            <div>
+                                <Organizer key={key} title={item.title} items={item.items}/>
+                            </div>
+                        ))}
+                    </section>
+                </div>
             </div>
         </div>
     );
