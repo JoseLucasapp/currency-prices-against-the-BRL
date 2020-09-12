@@ -17,13 +17,15 @@ export default () => {
     },[]);
     return(
         <div>
-            <section>
-                {currency.map((item,key)=>(
-                    <div>
-                        <Organizer key={key} title={item.title} items={item.items}/>
-                    </div>
-                ))}
-            </section>
+            <div>
+                <section>
+                    {currency.map((item,key)=>(
+                        <div>
+                            <Organizer key={key} title={item.title} items={item.items}/>
+                        </div>
+                    ))}
+                </section>
+            </div>
         </div>
     );
 }
