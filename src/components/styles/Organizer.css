@@ -1,4 +1,4 @@
-.main{
+.main-organizer{
     margin-left: 15%;
 }
 
@@ -30,6 +30,6 @@
     height: 300px;
 }
 .currency:hover div{
-    opacity: 0%;
+    visibility: hidden;
     position: absolute;
 }

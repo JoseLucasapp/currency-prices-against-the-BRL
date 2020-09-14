@@ -1,4 +1,6 @@
-.main{
+.main-header{
     width: 90%;
     background-color: lightslategray;
+    text-align: center;
+    margin-left: 5%;
 }
