@@ -24,7 +24,7 @@ export default () => {
                     <section>
                         {currency.map((item,key)=>(
                             <div>
-                                <Organizer key={key} items={item.items}/>
+                                <Organizer key={key} title={item.title} items={item.items}/>
                             </div>
                         ))}
                     </section>

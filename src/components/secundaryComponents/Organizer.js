@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/Organizer.css';
 
-export default ({items}) =>{
+export default ({title, items}) =>{
     return(
         <div className="main-organizer">
             <div className="currencymain">
+                <h3>{title}</h3>
                 <div className="currencyrowarea">
                     <div className="currencyrow">
                         {items.map((item,key)=>(

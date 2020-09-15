@@ -28,6 +28,26 @@ export default{
                 slug: 'BTC',
                 title: 'Bitcoin',
                 items: await connect(`/all/BTC-BRL`)
+            },
+            {
+                slug: 'LTC',
+                title: 'Litecoin',
+                items: await connect(`/all/LTC-BRL`)
+            },
+            {
+                slug: 'JPY',
+                title: 'Ieni',
+                items: await connect(`/all/JPY-BRL`)
+            },
+            {
+                slug: 'CHF',
+                title: 'Franco Suiço',
+                items: await connect(`/all/CHF-BRL`)
+            },
+            {
+                slug: 'CNY',
+                title: 'Yuan',
+                items: await connect(`/all/CNY-BRL`)
             }
         ]
     }

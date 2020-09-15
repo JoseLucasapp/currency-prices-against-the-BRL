@@ -6,30 +6,36 @@
     width: 21%;
     height: 150px;
     float: left;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .currencymain h3{
+    width: 100%;
+    transform: scale(0.8);
     text-align: center;
 }
 .currencyrowarea{
 
 }
 .currencyrow{
-    max-height: 300px;
+    max-height: 170px;
 }
 .currency{
-    border: 1px solid red;
     width: 100%;
     height: 67px;
     transform: scale(0.9);
     overflow-y: hidden;
 }
-.currency:hover{
-    transition: steps(2);
+.currencymain:hover h3{
+    background-color: red;
     transform: scale(1);
-    height: 300px;
 }
-.currency:hover div{
+.currencymain:hover .currency{
+    transform: scale(1);
+    height: 170px;
+    background-color: lawngreen;
+    z-index: 1;
+}
+.currencymain:hover .currency div{
     visibility: hidden;
     position: absolute;
 }
