@@ -12,6 +12,7 @@
     width: 100%;
     transform: scale(0.8);
     text-align: center;
+    border: 1px solid red;
 }
 .currencyrowarea{
 
@@ -24,15 +25,16 @@
     height: 67px;
     transform: scale(0.9);
     overflow-y: hidden;
+    border: 1px solid red;
 }
 .currencymain:hover h3{
-    background-color: red;
+    color: gold;
     transform: scale(1);
+    font-weight: bold;
 }
 .currencymain:hover .currency{
     transform: scale(1);
-    height: 170px;
-    background-color: lawngreen;
+    height: 155px;
     z-index: 1;
 }
 .currencymain:hover .currency div{

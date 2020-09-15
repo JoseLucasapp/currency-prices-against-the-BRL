@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Req from './Req';
 import Header from './secundaryComponents/Header';
 import Organizer from './secundaryComponents/Organizer';
+import Footer from './secundaryComponents/Footer';
 import './/styles/App.css';
 
 export default () => {
@@ -11,7 +12,6 @@ export default () => {
     useEffect(()=>{
         const loadAll = async()=>{
             let data = await Req.getConverter();
-            console.log(data)
             setCurrency(data);
         }
         loadAll();
@@ -29,6 +29,9 @@ export default () => {
                         ))}
                     </section>
                 </div>
+                <footer className="footer">
+                    <Footer/>
+                </footer>
             </div>
         </div>
     );

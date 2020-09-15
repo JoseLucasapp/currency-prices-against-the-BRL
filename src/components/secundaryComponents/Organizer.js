@@ -10,16 +10,16 @@ export default ({title, items}) =>{
                     <div className="currencyrow">
                         {items.map((item,key)=>(
                             <div key={key} className="currency">
-                                <p>Nome: {item.name}</p>
-                                <p>Compra: {item.bid}</p>
+                                <p><b>Nome:</b> {item.name}</p>
+                                <p><b>Compra:</b> {item.bid}</p>
                                 <div className="moretext">
                                     <p>Passe o Mouse para mais dados ...</p>
                                 </div>
-                                <p>Venda: {item.ask}</p>
-                                <p>Variação: {item.varBid}</p>
-                                <p>% de Variação: {(item.pctChange*100).toFixed(2)}%</p>
-                                <p>Preço maxímo: {item.high}</p>
-                                <p>Preço mínimo: {item.low}</p>
+                                <p><b>Venda:</b> {item.ask}</p>
+                                <p><b>Variação:</b> {item.varBid}</p>
+                                <p><b>% de Variação:</b> {(item.pctChange*100).toFixed(2)}%</p>
+                                <p><b>Preço maxímo:</b> {item.high}</p>
+                                <p><b>Preço mínimo:</b> {item.low}</p>
                             </div>
                         ))}
                     </div>
