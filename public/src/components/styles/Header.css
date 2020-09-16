@@ -1,0 +1,9 @@
+.main-header{
+    width: 90%;
+    background-color:transparent;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 6px;
+    border: 1px solid red;
+    color: white;
+}

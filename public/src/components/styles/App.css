@@ -1,0 +1,11 @@
+body{
+    background-color: #000000;
+    color: white;
+    overflow-x: hidden;
+}
+.footer{
+    position: fixed;
+    bottom: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
