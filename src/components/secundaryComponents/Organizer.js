@@ -15,11 +15,11 @@ export default ({title, items}) =>{
                                 <div className="moretext">
                                     <p>Passe o Mouse para mais dados ...</p>
                                 </div>
-                                <p><b>Venda:</b> R$ {item.ask}</p>
-                                <p><b>Variação:</b> R$ {item.varBid}</p>
+                                <p><b>Venda:</b> R$ {(item.ask).replace(".", ",")}</p>
+                                <p><b>Variação:</b> R$ {(item.varBid).replace(".", ",")}</p>
                                 <p><b>% de Variação:</b> {(item.pctChange*100).toFixed(2)}%</p>
-                                <p><b>Preço maxímo:</b> R$ {item.high}</p>
-                                <p><b>Preço mínimo:</b> R$ {item.low}</p>
+                                <p><b>Preço maxímo:</b> R$ {(item.high).replace(".", ",")}</p>
+                                <p><b>Preço mínimo:</b> R$ {(item.low).replace(".", ",")}</p>
                             </div>
                         ))}
                     </div>
