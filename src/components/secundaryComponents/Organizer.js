@@ -11,15 +11,15 @@ export default ({title, items}) =>{
                         {items.map((item,key)=>(
                             <div key={key} className="currency">
                                 <p><b>Nome:</b> {item.name}</p>
-                                <p><b>Compra:</b> {item.bid}</p>
+                                <p><b>Compra:</b> R$ {((item.bid*1).toFixed(2)).replace(".", ",")}</p>
                                 <div className="moretext">
                                     <p>Passe o Mouse para mais dados ...</p>
                                 </div>
-                                <p><b>Venda:</b> {item.ask}</p>
-                                <p><b>Variação:</b> {item.varBid}</p>
+                                <p><b>Venda:</b> R$ {item.ask}</p>
+                                <p><b>Variação:</b> R$ {item.varBid}</p>
                                 <p><b>% de Variação:</b> {(item.pctChange*100).toFixed(2)}%</p>
-                                <p><b>Preço maxímo:</b> {item.high}</p>
-                                <p><b>Preço mínimo:</b> {item.low}</p>
+                                <p><b>Preço maxímo:</b> R$ {item.high}</p>
+                                <p><b>Preço mínimo:</b> R$ {item.low}</p>
                             </div>
                         ))}
                     </div>
