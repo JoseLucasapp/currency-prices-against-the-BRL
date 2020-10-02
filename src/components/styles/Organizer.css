@@ -41,3 +41,18 @@
     visibility: hidden;
     position: absolute;
 }
+@media(max-width:1000px){
+    .main-organizer{
+        margin-left: 28%;
+    }    
+    .currencymain{
+        float: none;
+        width: 42%;
+        overflow-x: hidden;
+        margin-top: 40px;
+    }
+    .currencymain:hover{
+        height: 200px;
+        margin-top: 20px;
+    }
+}

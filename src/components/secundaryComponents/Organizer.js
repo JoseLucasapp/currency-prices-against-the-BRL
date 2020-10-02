@@ -13,7 +13,7 @@ export default ({title, items}) =>{
                                 <p><b>Nome:</b> {item.name}</p>
                                 <p><b>Compra:</b> R$ {((item.bid*1).toFixed(2)).replace(".", ",")}</p>
                                 <div className="moretext">
-                                    <p>Passe o Mouse para mais dados ...</p>
+                                    <p>Passe o mouse ou clique para expandir...</p>
                                 </div>
                                 <p><b>Venda:</b> R$ {(item.ask).replace(".", ",")}</p>
                                 <p><b>Variação:</b> R$ {(item.varBid).replace(".", ",")}</p>
