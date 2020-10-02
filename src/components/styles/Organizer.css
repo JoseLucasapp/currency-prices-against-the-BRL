@@ -14,9 +14,6 @@
     text-align: center;
     border: 1px solid red;
 }
-.currencyrowarea{
-
-}
 .currencyrow{
     max-height: 170px;
 }
@@ -47,12 +44,19 @@
     }    
     .currencymain{
         float: none;
-        width: 42%;
-        overflow-x: hidden;
+        width: 45%;
         margin-top: 40px;
+        overflow-y: hidden;
     }
     .currencymain:hover{
         height: 200px;
+        width: 45%;
         margin-top: 20px;
+    }
+    .currency{
+        width: 99%;
+    }
+    .currencymain h3{
+        width: 99%;
     }
 }
