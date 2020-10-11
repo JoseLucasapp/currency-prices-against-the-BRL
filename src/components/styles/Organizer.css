@@ -45,16 +45,16 @@
     .currencymain{
         float: none;
         width: 85%;
-        height: 380px;
+        height: 30%;
         margin-top: 30px;
         margin-bottom: 40px;
     }
     .currencymain:hover{
-        margin-top: 30px;
-        overflow-y: hidden;
+        margin-bottom: 30%;
+        height: 50%;
     }
     .currencymain:hover .currency{
-        height: 335px;
+        height: 30%;
         width: 98%;
         margin-top: 1px;
         overflow-y: hidden;
