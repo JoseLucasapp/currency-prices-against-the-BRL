@@ -55,8 +55,10 @@
     }
     .currencymain:hover .currency{
         height: 335px;
-        width: 100%;
+        width: 98%;
         margin-top: 1px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .currency{
         width: 100%;
@@ -64,7 +66,8 @@
         font-size: 35px;
     }
     .currencymain:hover h3{
-        width: 100%;
+        width: 98%;
+        /*overflow-x: hidden;*/
         transform: scale(1);
         font-size: 25px;
         height: 30px;
