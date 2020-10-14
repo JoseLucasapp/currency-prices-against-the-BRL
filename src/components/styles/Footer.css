@@ -1,15 +1,17 @@
 .data-footer{
     float: right;
+    color: #A5CC82;
 }
 .data-footer a{
     text-decoration: none;
-    color: red;
+    color: #00467F;
 }
 .mydata-footer{
     float: left;
     display: flex;
+    color: #A5CC82;
 }
 .mydata-footer a{
     text-decoration: none;
-    color: red;
+    color: #00467F;
 }
