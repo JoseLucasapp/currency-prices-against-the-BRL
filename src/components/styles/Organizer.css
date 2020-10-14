@@ -36,7 +36,6 @@
     transform: scale(1);
     height: 155px;
     z-index: 1;
-    background-color: red;
 }
 .currencymain:hover .currency div{
     visibility: hidden;
@@ -63,6 +62,8 @@
         margin-top: 1px;
         overflow-y: hidden;
         overflow-x: hidden;
+        border-color: linear-gradient(To right, #00467F, #A5CC82);
+        background: linear-gradient(To right, #00467F, #A5CC82);
     }
     .currency{
         width: 100%;
