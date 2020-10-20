@@ -28,9 +28,9 @@
   
   # Mais Informações
   <p>O sistema está assim atualmente: </p>
-  <img href='one.png' />
+  <img src='one.png' />
   <p>Ao passar o mouse(se estiver utilizando um computador ou notebook), ou ao clicar(se estiver usando um dispositivo móvel) serão móstradas mais informações sobre aquela comparação entre as moedas.</p>
-  <img href='two.png' />
+  <img src='two.png' />
   
   # Autor
 </p>
