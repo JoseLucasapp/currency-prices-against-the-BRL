@@ -19,6 +19,7 @@
    - [O que é ?](#o-que-é)
    - [Onde encontrar ?](#onde-encontrar)
    - [Mais Informações](#mais-informações)
+   - [Quais informações estão disponiveis?](#quais-informações-estão-disponiveis)
    - [Autor](#autor)
     
   # O que é?
@@ -26,10 +27,12 @@
   # Onde encontrar?
   <p>O sistema pode ser encontrado <a href='https://brl-currency-converter.vercel.app/'>clicando aqui</a>.
   
+  # Quais informações estão disponiveis?
+  
   # Mais Informações
   <p>O sistema está assim atualmente: </p>
   <img src='one.png' />
-  <p>Ao passar o mouse(se estiver utilizando um computador ou notebook), ou ao clicar(se estiver usando um dispositivo móvel) serão móstradas mais informações sobre aquela comparação entre as moedas.</p>
+  <p>Ao passar o mouse(se estiver utilizando um computador ou notebook), ou ao clicar(se estiver usando um dispositivo móvel) serão móstradas mais informações sobre aquela comparação entre as moedas. Na imagem a moeda <b>Franco Suiço</b> foi selecionada</p>
   <img src='two.png' />
   
   # Autor
