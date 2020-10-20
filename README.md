@@ -30,10 +30,11 @@
   <tr>
     <td><b>Javascript</b></td>
     <td>ReactJS</td>
+    <td>API de Cotações</td>
   </tr>
   </table>
   
-  - [Links](#links)
+  <p>Links das ferramentas no topo</p>
   
   # O que é?
   <p>Trata-se de um sistema que mostra o preço do Real Brasileiro em comparação com as grandes moedas(Ex: Dolar, Euro e etc.) do mercado usando uma API</p>
