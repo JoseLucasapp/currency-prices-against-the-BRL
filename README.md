@@ -28,6 +28,17 @@
   <p>O sistema pode ser encontrado <a href='https://brl-currency-converter.vercel.app/'>clicando aqui</a>.
   
   # Quais informações estão disponiveis?
+  <ol>
+    <li>Nome da moeda</li>
+    <li>Valor de compra</li>
+    <li>Valor de venda</li>
+    <li>Porcentagem de variação</li>
+    <li>Valor da variação</li>
+    <li>Preço máximo</li>
+    <li>Preço mínimo</li>
+  </ol>
+  <p>todos os valores são em relação ao real</p>
+  
   
   # Mais Informações
   <p>O sistema está assim atualmente: </p>
