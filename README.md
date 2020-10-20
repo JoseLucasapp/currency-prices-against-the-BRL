@@ -37,7 +37,7 @@
     <li>Preço máximo</li>
     <li>Preço mínimo</li>
   </ol>
-  <p>todos os valores são em relação ao real</p>
+    <p>Todos os valores são em relação ao real</p>
   
   
   # Mais Informações
@@ -47,5 +47,6 @@
   <img src='two.png' />
   
   # Autor
+  <a href='https://www.instagram.com/jlucasgf/?hl=pt-br'>José Lucas</a>
 </p>
 
