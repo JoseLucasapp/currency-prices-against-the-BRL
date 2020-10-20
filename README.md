@@ -16,10 +16,10 @@
   
   # Sumário
   
-   -[O que é ?](#o-que-e-?)
-   -[Para que usa-lo ?](#para-que-usa-lo-?)
-   -[Onde encontrar ?](#onde-encontrar-?)
-   -[Autor](#Autor)
+   - [O que é ?](#o-que-e-?)
+   - [Para que usa-lo ?](#para-que-usa-lo-?)
+   - [Onde encontrar ?](#onde-encontrar-?)
+   - [Autor](#autor)
     
   # O que é ?
   # Para que usa-lo ?
