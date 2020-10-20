@@ -4,8 +4,6 @@
     text-align: center;
     margin-left: 5%;
     margin-top: 6px;
-    border: 1px solid;
     color: white;
-    border-color: linear-gradient(To right, #00467F, #A5CC82);
     background: linear-gradient(To right, #00467F, #A5CC82);
 }
