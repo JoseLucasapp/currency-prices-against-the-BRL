@@ -17,6 +17,10 @@ body{
     text-align: center;
     font-size: 10px;
 }
+.spinner p{
+    font-size: 20px;
+    font-weight: bold;
+}
   
 .spinner > div {
     background-color: white;
@@ -61,5 +65,19 @@ body{
     }  20% { 
       transform: scaleY(1.0);
       -webkit-transform: scaleY(1.0);
+    }
+}
+@media(max-width:1000px){
+    .spinner{
+        width: 100%;
+        height: 300px;
+    }
+    .spinner p{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .spinner > div{
+        margin-left: 3%;
+        width: 5%;
     }
 }

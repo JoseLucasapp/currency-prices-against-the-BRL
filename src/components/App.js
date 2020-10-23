@@ -13,11 +13,11 @@ export default () => {
         const loadAll = async()=>{
             let data = await Req.getConverter();
             document.getElementById('section').style.visibility = 'hidden';
-            if(data){
-                document.getElementById('carregando').style.visibility = 'hidden';
-                document.getElementById('section').style.visibility = 'visible';
-                document.getElementById('carregando').style.position = 'absolute';
-            }
+            //if(data){
+              //  document.getElementById('carregando').style.visibility = 'hidden';
+               // document.getElementById('section').style.visibility = 'visible';
+                //document.getElementById('carregando').style.position = 'absolute';
+            //}
             setCurrency(data);
         }
         loadAll();
