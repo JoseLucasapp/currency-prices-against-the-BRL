@@ -18,7 +18,7 @@
   # Sumário
   
    - [Used Tools](#used-tools)
-   - [what is it ?](#what-is-it)
+   - [What is it ?](#what-is-it)
    - [Where to find ?](#where-to-find)
    - [What information is available ?](#what-information-is-available)
    - [More Informations](#more-informations)
@@ -33,13 +33,13 @@
   </tr>
   </table>
   
-  # what is it ?
+  # What is it?
   <p>It is a system that shows the price of the Brazilian Real in comparison to the major currencies (Ex .: Dolar, Euro and etc.) on the market using an API</p>
   
   # Where to find?
   <p>The system can be found <a href='https://brl-currency-converter.vercel.app/'>clicking here</a>.
   
-  # What information is available ?
+  # What information is available?
   <ol>
     <li>Name</li>
     <li>Purchase price</li>
