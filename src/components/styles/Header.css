@@ -5,5 +5,13 @@
     margin-left: 5%;
     margin-top: 6px;
     color: white;
-    background: linear-gradient(To right, #00467F, #A5CC82);
+    border: 1px solid gray;
+}
+
+@media(max-width:1000px){
+    .main-header{
+        position: absolute;
+        z-index: -100;
+        visibility: hidden;
+    }
 }

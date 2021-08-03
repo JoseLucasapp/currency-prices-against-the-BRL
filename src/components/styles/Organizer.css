@@ -1,75 +1,13 @@
 .main-organizer{
-    margin-left: 8%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: tomato;
+    display: flex;
 }
 
 .currencymain{
-    width: 23%;
-    height: 150px;
-    margin-top: 80px;
-    float: left;
-}
-.currencymain h3{
-    width: 100%;
-    transform: scale(0.8);
-    text-align: center;
-    background: linear-gradient(To right, #00467F, #A5CC82);
-}
-.currencyrow{
-    max-height: 170px;
-}
-.currency{
-    width: 100%;
-    height: 67px;
-    transform: scale(0.9);
-    overflow-y: hidden;
-    background: linear-gradient(To right, #00467F, #A5CC82);
-}
-.currencymain:hover h3{
-    transform: scale(1);
-    font-weight: bold;
-}
-.currencymain:hover .currency{
-    transform: scale(1);
-    height: 155px;
-    z-index: 1;
-}
-.currencymain:hover .currency div{
-    visibility: hidden;
-    position: absolute;
-}
-@media(max-width:1000px){
-    .main-organizer{
-        margin-left: 15%;
-    }    
-    .currencymain{
-        float: none;
-        width: 85%;
-        height: 30%;
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-    .currencymain:hover{
-        margin-bottom: 25%;
-        height: 50%;
-    }
-    .currencymain:hover .currency{
-        height: 30%;
-        width: 98%;
-        margin-top: 1px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        border-color: linear-gradient(To right, #00467F, #A5CC82);
-        background: linear-gradient(To right, #00467F, #A5CC82);
-    }
-    .currency{
-        width: 100%;
-        height: 145px;
-        font-size: 35px;
-    }
-    .currencymain:hover h3{
-        width: 98%;
-        transform: scale(1);
-        font-size: 25px;
-        height: 30px;
-    }
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 2%;
 }

@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 
 export default () => {
     return(
-        <div>
+        <div className="root-footer">
             <div className="mydata-footer">
                 <h3>Github: <span><a href="https://github.com/JoseLucasapp">JoseLucasapp</a></span></h3>
                 <h3>/ Instagram: <span><a href="https://www.instagram.com/jlucasgf/?hl=pt-br">jlucasgf</a></span></h3>

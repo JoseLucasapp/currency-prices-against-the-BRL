@@ -24,10 +24,10 @@ export default () => {
     },[]);
     return(
         <div>
-            <div>
+            <div className="main-root">
                 <Header/>
                 <div>
-                    <section id='section'>
+                    <section id='section' className="cards">
                         {currency.map((item,key)=>(
                             <div>
                                 <Organizer key={key} title={item.title} items={item.items}/>
@@ -45,9 +45,9 @@ export default () => {
                         </div>
                     </section>
                 </div>
-                <footer className="footer">
+                <div className="footer">
                     <Footer/>
-                </footer>
+                </div>
             </div>
         </div>
     );

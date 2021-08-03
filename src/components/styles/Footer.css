@@ -1,5 +1,10 @@
+.root-footer{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+}
 .data-footer{
-    float: right;
     color: #A5CC82;
 }
 .data-footer a{
@@ -7,7 +12,6 @@
     color: #00467F;
 }
 .mydata-footer{
-    float: left;
     display: flex;
     color: #A5CC82;
 }

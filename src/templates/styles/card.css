@@ -1,0 +1,44 @@
+.root{
+    width: 30vw;
+    margin-left: 5vw;
+    height: 11vh;
+    max-height: 27vh;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: transparent;
+    overflow-y: hidden;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+.root:hover{
+    transition: 2s;
+    height: 27vh;
+    color: #00467F;
+    border-color: #00467F;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media(max-width:1000px){
+    .root {
+        width: 70vw;
+        height: 25vh;
+        font-size: 40px;
+        margin-left: 0vw;
+        border: none;
+    }
+    .root:hover{
+        height: 25vh;
+        transition: 0s;
+        color: white;
+        border: none;
+    }
+    .title{
+        font-size: 60px;
+    }
+}
