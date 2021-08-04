@@ -9,6 +9,7 @@
     overflow-y: hidden;
     cursor: pointer;
     border: 2px solid gray;
+    -webkit-transition: 2s;
 }
 
 .root:hover{
@@ -16,6 +17,7 @@
     height: 27vh;
     color: #00467F;
     border-color: #00467F;
+    transition: 2s;
 }
 
 .title{

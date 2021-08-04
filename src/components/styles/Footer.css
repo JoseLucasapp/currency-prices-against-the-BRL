@@ -19,3 +19,13 @@
     text-decoration: none;
     color: #00467F;
 }
+
+@media(max-width:1000px){
+    .root-footer{
+        margin-top: 3600px;
+        font-size: 30px;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
